@@ -1,0 +1,335 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+p {
+  width: 90%;
+}
+
+.first, .navigation-bar {
+  padding: 5%;
+}
+
+.navigation-item {
+  padding-right: 10%;
+  display: inline-block;
+  width: auto;
+}
+
+.right-bar {
+  text-align: right;
+}
+
+.first-left {
+  width: 45%;
+  margin-top: 5%;
+}
+
+.get-started-btn {
+  width: 15rem;
+}
+
+.illustration-1 {
+  max-width: 37rem;
+  margin-top: 5%;
+}
+
+.mail-1 {
+  width: 20rem;
+  border-color: black;
+}
+
+.first-btn {
+  width: 14rem;
+}
+
+.second {
+  background-color: #F9F8FE;
+  padding: 5%;
+}
+
+.curve {
+  margin-top: 10rem;
+  width: 100%;
+}
+
+.stay {
+  margin-bottom: 3%;
+}
+
+.illustration-2 {
+  width: 37rem;
+  padding-bottom: 15%;
+}
+
+.see{
+  color: #3c9f8f;
+  border-bottom: 1px solid;
+}
+
+.review {
+  background-color: #fff;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.25);
+  margin-top: 2rem;
+  margin-left: 0;
+  width: 23rem;
+  padding: 0 5%;
+}
+
+.quotes {
+  padding-top: 10%;
+  padding-bottom: 3%;
+}
+
+.reviewer {
+  padding: 5%;
+}
+
+.testimonial {
+  width: 2.5rem;
+  border-radius: 100%;
+  float: left;
+  margin-right: 0.5rem;
+}
+
+.Kyle {
+  padding-top: 3%;
+  font-size: 0.8rem;
+  line-height: 0.5;
+}
+
+.Founder {
+  font-size: 0.8rem;
+  line-height: 0;
+}
+
+.third {
+  background-color: #585989;
+  padding: 5%;
+  padding-top: 8%;
+}
+
+.third-left {
+  width: 50%;
+  color: white;
+}
+
+.third-left p {
+  width: 32rem;
+}
+
+.third-right {
+  width: 50%;
+  padding: 0;
+  margin-left: 6rem;
+}
+
+.second-btn {
+  margin-left: 6rem;
+}
+
+.email {
+  width: 30rem;
+}
+
+.fourth {
+  background-color: #07043B;
+  color: #fff;
+  padding: 5%;
+  padding-bottom: 1%;
+}
+
+.logo {
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.icon {
+  padding-right: 5%;
+}
+
+.about {
+margin-left: 10%;
+}
+
+.social {
+  margin: 2%;
+  padding: 2%;
+  border: 1px solid;
+  border-radius: 100%;
+  color: #fff;
+}
+
+.social:hover {
+  background-color: white;
+  color: black;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.attribution a:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+.first {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-bar {
+  margin: 0;
+}
+.logo-first {
+  width: 5rem;
+}
+
+.right-bar {
+  width: auto;
+  text-align: right;
+  margin: auto;
+  margin-right: 0;
+}
+
+.navigation-item {
+  font-size: 0.7rem;
+  padding: 0;
+  width: auto;
+}
+
+.illustration-1 {
+  width: 20rem;
+  position: relative;
+  bottom: 350px;
+}
+
+.first-left {
+  width: auto;
+  position: relative;
+  top: 300px;
+}
+
+.first-left p{
+  width: auto;
+  font-size: 1rem;
+  text-align: center;
+  margin: auto;
+}
+
+.first-left h1{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.form1 {
+  margin-top: 7%;
+}
+
+.first-btn {
+  width: inherit;
+}
+
+.second {
+  margin: 0;
+}
+
+.second-left {
+  position: relative;
+  top: 300px;
+}
+
+.illustration-2 {
+  width: 20rem;
+  position: relative;
+  bottom: 600px;
+}
+
+.second-left {
+  width: auto;
+  font-size: 1rem;
+}
+
+.second-left h2 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.second-left p{
+  width: auto;
+}
+
+.see-how{
+  text-align: center;
+}
+
+.review {
+  width: auto;
+  margin: 10% 5%;
+}
+
+.third {
+  margin: 0;
+}
+
+.third-left {
+  width: auto;
+}
+
+.third h2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.third p{
+  width: auto;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.third-right {
+  text-align: center;
+  margin: 20px 40px;
+}
+
+.email {
+  width: 15rem;
+}
+
+.second-btn {
+  margin: auto 40px;
+  width: 15rem;
+}
+
+.second-btn-div {
+  padding-bottom: 10%;
+}
+
+.about-div {
+  margin: 5% 0;
+}
+
+.about {
+  margin-left: 0;
+}
+
+.social-main {
+  text-align: center;
+}
+
+.attribution {
+  font-size: 10px;
+  text-align: center;
+}
+
+}
