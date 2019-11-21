@@ -12,14 +12,14 @@
   <link rel="stylesheet" href="css/styles.css">
   <!-- Font Awesome for Icons -->
   <script src="https://kit.fontawesome.com/13c795f6d8.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans%7CRaleway:400,700&display=swap" rel="stylesheet">
+  <!-- Title -->
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
   <!-- Scripts For BootStrap -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700&display=swap" rel="stylesheet">
-  <!-- Title -->
-  <title>Frontend Mentor | Fylo landing page with two column layout</title>
 </head>
 
 <body>
@@ -44,7 +44,7 @@
       <form>
         <div class="row form1">
           <div class="form-group col">
-            <input type="email" class="form-control mail-1" placeholder="Enter your email...">
+            <input type="email" name="emailaddress" class="form-control mail-1" placeholder="Enter your email...">
           </div>
           <div class="form-group col">
             <button type="submit" name="button" class="btn btn-primary first-btn">Get Started</button>
@@ -99,7 +99,7 @@
     </div>
     <form>
       <div class="form-group third-right col-6">
-        <input type="email" class="form-control email" placeholder="email@example.com" />
+        <input type="email" name="emailaddress" class="form-control email" placeholder="email@example.com" />
       </div>
       <div class="second-btn-div">
         <button type="submit" name="button" class="btn btn-primary second-btn">Get started for free</button>
@@ -130,9 +130,9 @@
       </div>
 
       <div class="col-lg-3 ml-auto social-main">
-        <a href="https://www.facebook.com/vaibhav.chandak.73?ref=bookmarks"><i class="fab fa-facebook-f social"></i></a>
-        <a href="https://www.instagram.com/vaibhv.chandak/"><i class="fab fa-instagram social"></i></a>
-        <a href="https://vaibhav121121.github.io/CV2/"><i class="fab fa-vuejs social"></i></a>
+        <a href="https://www.facebook.com/vaibhav.chandak.73?ref=bookmarks"><span class="sr-only">Facbook</span><i class="fab fa-facebook-f social"></i></a>
+        <a href="https://www.instagram.com/vaibhv.chandak/"><span class="sr-only">instagram</span><i class="fab fa-instagram social"></i></a>
+        <a href="https://vaibhav121121.github.io/CV2/"><span class="sr-only">CV</span><i class="fab fa-vuejs social"></i></a>
       </div>
 
     </div>
